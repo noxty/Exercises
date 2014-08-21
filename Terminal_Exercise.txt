@@ -1,0 +1,47 @@
+Exercise 1.
+
+Claes-Gottliebs-MacBook-Pro:2. Semester noxty$ cd ~/Documents
+Claes-Gottliebs-MacBook-Pro:Documents noxty$ pwd
+/Users/noxty/Documents
+
+
+Exercise 2.
+
+Claes-Gottliebs-MacBook-Pro:Documents noxty$ cd xyz
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ pwd
+/Users/noxty/Documents/xyz
+
+
+Exercise 3.
+
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ touch abc.txt
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ touch def.txt
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ ls
+abc.txt	def.txt
+
+
+
+
+Exercise 4.
+
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ cd ..
+Claes-Gottliebs-MacBook-Pro:Documents noxty$ cd ~
+Claes-Gottliebs-MacBook-Pro:~ noxty$ pwd
+/Users/noxty
+
+
+Exercise 5.
+
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ rm def.txt
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ pwd
+/Users/noxty/documents/xyz
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ ls
+abc.txt
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ mv abc.txt xyz.txt
+Claes-Gottliebs-MacBook-Pro:xyz noxty$ ls
+xyz.txt
+
+
+Exercise 6.
+
+Claes-Gottliebs-MacBook-Pro:~ noxty$ open -a TextEdit
